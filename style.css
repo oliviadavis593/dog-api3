@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Alatsi', sans-serif;
+    background-color: rgb(66, 135, 245);
+}
+
+
+header {
+    text-align: center;
+    
+}
+
+fieldset {
+    border: 5px solid black; 
+    width: 500px;
+    height: auto;  
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+     
+}
+
+form h2 {
+    text-align: center; 
+}
+
+
+
+form input {
+    display: block; 
+    margin: 0 auto; 
+     
+}
+
+.number {
+    margin-top: 30px; 
+}
+
+.button {
+    margin-top: 30px; 
+}
+
+.results {
+    height: auto; 
+    width: 250px; 
+    margin-top: 30px; 
+    margin-left: 65px; 
+}
