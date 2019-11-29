@@ -18,13 +18,13 @@ function returnDogImage() {
 }
 
 function retrieveImage() {
-    fetch('https://dog.ceo/api/breed/" + getUserInput() + "/images/random')
+    fetch('https://dog.ceo/api/breed/' + userInput() + '/images/random')
         .then(response => response.json())
         .then(responseJson => displayResults(responseJson))
         .catch(error => alert('I cant seem to find that. Try something else!'));
 }
 
-function disaplayResults(responseJson)  {
+function displayResults(responseJson)  {
     console.log(responseJson);
     if(responseJson.status !== 'success') {
         alert('I cant seem to find that. Try something else!');
